@@ -5,3 +5,5 @@ alert("Hello, " + prompt("Hi, what's your name ?") + "! How are you?");
 let nameUser = prompt("Hi, what's your name ?");
 console.log(nameUser + ' = ' + typeof nameUser);// typeof - показывает тип переменной.
 alert("Hello, " + nameUser + "! How are you?");
+// или так 
+alert(`Hello, ${nameUser}! How are you?`);
